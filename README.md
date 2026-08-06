@@ -137,7 +137,7 @@ jobs:
         run: |
           ssh ubuntu@<your-ec2-public-ip> << 'EOF'
             if [ ! -d "/home/ubuntu/docker-todo" ]; then
-              git clone git@github.com:amitbiswas1992/docker-todo.git /home/ubuntu/docker-todo
+              git clone git@github.com:amitslog/docker-todo.git /home/ubuntu/docker-todo
             else
               cd /home/ubuntu/docker-todo
               git pull origin master

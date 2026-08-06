@@ -27,7 +27,7 @@ jobs:
           ssh ubuntu@54.227.208.98 << 'EOF'
             # Ensure the repo is present or clone it
             if [ ! -d "/home/ubuntu/docker-todo" ]; then
-              git clone git@github.com:amitbiswas1992/docker-todo.git /home/ubuntu/docker-todo
+              git clone git@github.com:amitslog/docker-todo.git /home/ubuntu/docker-todo
             fi
 
             # Always pull the latest code before proceeding
